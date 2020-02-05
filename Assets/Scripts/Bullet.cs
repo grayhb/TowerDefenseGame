@@ -49,7 +49,7 @@ public class Bullet : MonoBehaviour
         }
         else
         {
-            Destroy(target);
+            Destroy(target.gameObject);
         }
 
         
