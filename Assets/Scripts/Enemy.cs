@@ -10,14 +10,26 @@ public class Enemy : MonoBehaviour
     private Transform target;
     private int wavepointIndex = 0;
 
+    public int health = 100;
+    public int value = 50;
 
-    // Start is called before the first frame update
+    public GameObject deathEffect;
+
     void Start()
     {
         target = Waypoints.waypoints[0];
     }
 
-    // Update is called once per frame
+    public void TakeDamage(int amount)
+    {
+        health -= amount;
+
+        if (health <= 0)
+        {
+            Die();
+        }
+    }
+
     void Update()
     {
         Vector3 dir = target.position - transform.position;
@@ -27,15 +39,31 @@ public class Enemy : MonoBehaviour
             GetNextWaypoint();
     }
 
-    void GetNextWaypoint ()
+    void GetNextWaypoint()
     {
         if (wavepointIndex >= Waypoints.waypoints.Length - 1)
         {
-            Destroy(gameObject);
+            EndPath();
             return;
         }
 
         wavepointIndex++;
         target = Waypoints.waypoints[wavepointIndex];
+    }
+
+    void EndPath()
+    {
+        PlayerStats.Lives--;
+        Destroy(gameObject);
+    }
+
+    void Die()
+    {
+        PlayerStats.Money += value;
+
+        var effect = Instantiate(deathEffect, transform.position, Quaternion.identity);
+        Destroy(effect, 5f);
+        
+        Destroy(gameObject);
     }
 }

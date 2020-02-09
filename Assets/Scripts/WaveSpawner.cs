@@ -12,12 +12,6 @@ public class WaveSpawner : MonoBehaviour
     float countdown = 2.5f;
     int waveIndex = 0;
 
-    void Start()
-    {
-        //waveCountdownText.fontSize = Screen.width / 20;
-    }
-
-    // Update is called once per frame
     void Update()
     {
         if (countdown <= 0f)
