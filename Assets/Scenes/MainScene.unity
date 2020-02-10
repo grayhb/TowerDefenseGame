@@ -1162,6 +1162,156 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 140135124}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &164679051
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1772822983}
+    m_Modifications:
+    - target: {fileID: 5599434791003037258, guid: 7d20086ae105d1145a8b05dc22a0afdc,
+        type: 3}
+      propertyPath: m_PreferredWidth
+      value: 110
+      objectReference: {fileID: 0}
+    - target: {fileID: 5599434791003037258, guid: 7d20086ae105d1145a8b05dc22a0afdc,
+        type: 3}
+      propertyPath: m_PreferredHeight
+      value: 110
+      objectReference: {fileID: 0}
+    - target: {fileID: 6737206743539790592, guid: 7d20086ae105d1145a8b05dc22a0afdc,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1772822987}
+    - target: {fileID: 6737206743539790592, guid: 7d20086ae105d1145a8b05dc22a0afdc,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SelectLaserBeam
+      objectReference: {fileID: 0}
+    - target: {fileID: 6737206743539790593, guid: 7d20086ae105d1145a8b05dc22a0afdc,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6737206743539790593, guid: 7d20086ae105d1145a8b05dc22a0afdc,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6737206743539790593, guid: 7d20086ae105d1145a8b05dc22a0afdc,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6737206743539790593, guid: 7d20086ae105d1145a8b05dc22a0afdc,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6737206743539790593, guid: 7d20086ae105d1145a8b05dc22a0afdc,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6737206743539790593, guid: 7d20086ae105d1145a8b05dc22a0afdc,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6737206743539790593, guid: 7d20086ae105d1145a8b05dc22a0afdc,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6737206743539790593, guid: 7d20086ae105d1145a8b05dc22a0afdc,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6737206743539790593, guid: 7d20086ae105d1145a8b05dc22a0afdc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6737206743539790593, guid: 7d20086ae105d1145a8b05dc22a0afdc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6737206743539790593, guid: 7d20086ae105d1145a8b05dc22a0afdc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6737206743539790593, guid: 7d20086ae105d1145a8b05dc22a0afdc,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6737206743539790593, guid: 7d20086ae105d1145a8b05dc22a0afdc,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6737206743539790593, guid: 7d20086ae105d1145a8b05dc22a0afdc,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6737206743539790593, guid: 7d20086ae105d1145a8b05dc22a0afdc,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6737206743539790593, guid: 7d20086ae105d1145a8b05dc22a0afdc,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6737206743539790593, guid: 7d20086ae105d1145a8b05dc22a0afdc,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6737206743539790593, guid: 7d20086ae105d1145a8b05dc22a0afdc,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6737206743539790593, guid: 7d20086ae105d1145a8b05dc22a0afdc,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6737206743539790593, guid: 7d20086ae105d1145a8b05dc22a0afdc,
+        type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6737206743539790593, guid: 7d20086ae105d1145a8b05dc22a0afdc,
+        type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6737206743539790594, guid: 7d20086ae105d1145a8b05dc22a0afdc,
+        type: 3}
+      propertyPath: m_Name
+      value: LaserBeamItem
+      objectReference: {fileID: 0}
+    - target: {fileID: 6737206743539790607, guid: 7d20086ae105d1145a8b05dc22a0afdc,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 0dea9f05f33ec1e46822bfd2f9afcffb,
+        type: 3}
+    - target: {fileID: 8490294412678110153, guid: 7d20086ae105d1145a8b05dc22a0afdc,
+        type: 3}
+      propertyPath: m_Text
+      value: $350
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7d20086ae105d1145a8b05dc22a0afdc, type: 3}
 --- !u!1 &170076733
 GameObject:
   m_ObjectHideFlags: 0
@@ -11816,10 +11966,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc2b9e8f6d86dbb4f9e3a70261377a3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  standartTurretPrefab: {fileID: 6922324225431268663, guid: b6d7d724b22c7f14eb4e7be34833dfa2,
-    type: 3}
-  missileLauncherPrefab: {fileID: 3100517099024235923, guid: 49b9c660f7e9bb14bbbd02d55401b63a,
-    type: 3}
   buildEffect: {fileID: 7863265443086573214, guid: cca0da26959cbdb499fee175a469d676,
     type: 3}
 --- !u!114 &1605274750
@@ -12966,6 +13112,7 @@ RectTransform:
   m_Children:
   - {fileID: 1266297258762194045}
   - {fileID: 999272612}
+  - {fileID: 2041481721}
   m_Father: {fileID: 1697083407}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -13027,7 +13174,7 @@ MonoBehaviour:
     m_Top: 0
     m_Bottom: 0
   m_ChildAlignment: 7
-  m_Spacing: 25
+  m_Spacing: 5
   m_ChildForceExpandWidth: 0
   m_ChildForceExpandHeight: 0
   m_ChildControlWidth: 1
@@ -13052,6 +13199,10 @@ MonoBehaviour:
     prefab: {fileID: 3100517099024235923, guid: 49b9c660f7e9bb14bbbd02d55401b63a,
       type: 3}
     cost: 250
+  laserBeam:
+    prefab: {fileID: 6269061039834379718, guid: e1015e318c663ce4e80a06f1b60e475b,
+      type: 3}
+    cost: 350
 --- !u!1001 &1777518894
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15776,6 +15927,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2041185099}
   m_PrefabAsset: {fileID: 0}
+--- !u!224 &2041481721 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 6737206743539790593, guid: 7d20086ae105d1145a8b05dc22a0afdc,
+    type: 3}
+  m_PrefabInstance: {fileID: 164679051}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2046512244
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17032,6 +17189,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1772822983}
     m_Modifications:
+    - target: {fileID: 5599434791003037258, guid: 7d20086ae105d1145a8b05dc22a0afdc,
+        type: 3}
+      propertyPath: m_PreferredWidth
+      value: 120
+      objectReference: {fileID: 0}
+    - target: {fileID: 5599434791003037258, guid: 7d20086ae105d1145a8b05dc22a0afdc,
+        type: 3}
+      propertyPath: m_PreferredHeight
+      value: 120
+      objectReference: {fileID: 0}
     - target: {fileID: 6737206743539790592, guid: 7d20086ae105d1145a8b05dc22a0afdc,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
